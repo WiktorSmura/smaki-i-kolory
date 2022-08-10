@@ -1,0 +1,14 @@
+.menu {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #dbe95b 0%,
+    rgba(129, 209, 114, 0.697917) 20%,
+    rgba(45, 178, 135, 0.697917) 40%,
+    rgba(0, 143, 140, 0.512533) 60%,
+    rgba(17, 107, 123, 0.512533) 80%,
+    rgba(47, 72, 88, 0.5) 100%
+  );
+}

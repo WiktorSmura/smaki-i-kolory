@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  background-color: #333;
+  opacity: 70%;
+  color: white;
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  grid-column: 2/4;
+}
+
+.barsButton {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  color: white;
+  width: 30%;
+  height: auto;
+  grid-column: 4/5;
+  justify-self: end;
+  margin-right: 10vw;
+}
+
+.bars {
+  width: 100%;
+  height: 100%;
+}
