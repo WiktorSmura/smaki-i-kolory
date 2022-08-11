@@ -20,6 +20,8 @@ function Menu() {
 
   if (!data) return <div>Loading...</div>;
 
+  console.log(menuValue);
+
   return (
     <section className={styles.menu}>
       <PizzaSlicer className={styles.pizzaSlicer} />
@@ -27,7 +29,6 @@ function Menu() {
       <MenuNavigation />
       <div className={styles.menuItems}>
         {data[menuValue].map(({ name, description, price }, index) => {
-          console.log(name);
           return (
             <MenuItem
               name={name}

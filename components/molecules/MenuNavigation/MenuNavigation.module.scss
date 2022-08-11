@@ -4,6 +4,12 @@
   width: 60vw;
   margin-top: 2.4rem;
 
+  button {
+    border: none;
+    background: none;
+    color: black;
+  }
+
   .menuNavigationItem {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,4 @@
 .menu {
-  position: absolute;
   width: 100vw;
   min-height: 90vh;
   background: linear-gradient(
@@ -19,13 +18,12 @@
   .pizzaSlicer,
   .pizzaSlice {
     position: absolute;
-    z-index: -1;
   }
 
   .pizzaSlicer {
     width: 10rem;
     height: 10rem;
-    top: 1rem;
+    top: calc(100vh + 1rem);
     left: 2rem;
   }
 
@@ -35,8 +33,6 @@
 
     .pizzaSlice {
       width: 12.5rem;
-      height: 12.5rem;
-      bottom: 1rem;
       right: 2rem;
     }
   }

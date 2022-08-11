@@ -9,7 +9,7 @@ function MenuNavigation() {
 
   return (
     <div className={styles.menuNavigation}>
-      <div
+      <button
         className={styles.menuNavigationItem}
         onClick={() => {
           setMenuValue("pizza");
@@ -17,8 +17,8 @@ function MenuNavigation() {
       >
         <MenuPizza className={styles.menuIcon} />
         <p className={styles.itemDescription}>Pizza</p>
-      </div>
-      <div
+      </button>
+      <button
         className={styles.menuNavigationItem}
         onClick={() => {
           setMenuValue("drinks");
@@ -26,8 +26,8 @@ function MenuNavigation() {
       >
         <MenuDrink className={styles.menuIcon} />
         <p className={styles.itemDescription}>Napoje</p>
-      </div>
-      <div
+      </button>
+      <button
         className={styles.menuNavigationItem}
         onClick={() => {
           setMenuValue("desserts");
@@ -35,7 +35,7 @@ function MenuNavigation() {
       >
         <MenuDessert className={styles.menuIcon} />
         <p className={styles.itemDescription}>Desery</p>
-      </div>
+      </button>
     </div>
   );
 }

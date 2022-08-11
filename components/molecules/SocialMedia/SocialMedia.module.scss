@@ -1,0 +1,39 @@
+.socialMedia {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    #0e7bd6 0%,
+    rgba(0, 161, 232, 0.85) 14.29%,
+    rgba(0, 192, 216, 0.675239) 28.57%,
+    rgba(0, 193, 216, 0.7) 42.86%,
+    rgba(0, 219, 177, 0.484375) 57.14%,
+    rgba(7, 220, 175, 0.7) 71.43%,
+    rgba(143, 238, 134, 0.85) 85.71%,
+    #f9f871 100%
+  );
+
+  .icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 2.4rem;
+    z-index: 1;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+    z-index: 1;
+  }
+}
+
+.socialMedia::before {
+  content: "";
+  width: 100vw;
+  height: 12vh;
+  position: absolute;
+  background-color: white;
+  opacity: 30%;
+}
