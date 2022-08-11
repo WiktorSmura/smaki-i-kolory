@@ -12,12 +12,12 @@ function ParallaxScroll() {
       parentRef.current.children,
       { backgroundPosition: "50% 0px" },
       {
-        backgroundPosition: "50% -500px",
+        backgroundPosition: "50% -300px",
         ease: "none",
         scrollTrigger: {
           trigger: parentRef.current,
           start: "top bottom",
-          end: "bottom top",
+          end: "80% top",
           scrub: true,
           invalidateOnRefresh: true,
         },

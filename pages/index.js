@@ -13,8 +13,8 @@ export default function Home() {
       <Menu />
       <Gallery />
       <SocialMedia />
-      {/* <ParallaxScroll />
-      <div style={{ width: "100vw", height: "100vh" }}></div> */}
+      <ParallaxScroll />
+      <div style={{ width: "100vw", height: "100vh" }}></div>
     </>
   );
 }
