@@ -1,0 +1,35 @@
+.menuItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  padding: 0 6rem;
+  margin-bottom: 2.4rem;
+
+  p {
+    margin: 0;
+  }
+
+  .menuItemName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      white-space: nowrap;
+    }
+
+    span.line {
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid black;
+      margin: 0 1rem;
+    }
+  }
+
+  .description {
+    margin-bottom: 2.4rem;
+    color: #636262;
+  }
+}

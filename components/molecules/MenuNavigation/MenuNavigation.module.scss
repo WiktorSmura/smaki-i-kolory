@@ -1,0 +1,22 @@
+.menuNavigation {
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  margin-top: 2.4rem;
+
+  .menuNavigationItem {
+    display: flex;
+    flex-direction: column;
+
+    .itemDescription {
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 1.6rem;
+    }
+  }
+
+  .menuIcon {
+    width: 3.9rem;
+    height: 3.9rem;
+  }
+}

@@ -1,7 +1,7 @@
 .menu {
   position: absolute;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 90vh;
   background: linear-gradient(
     180deg,
     #dbe95b 0%,
@@ -11,4 +11,38 @@
     rgba(17, 107, 123, 0.512533) 80%,
     rgba(47, 72, 88, 0.5) 100%
   );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -2;
+
+  .pizzaSlicer,
+  .pizzaSlice {
+    position: absolute;
+    z-index: -1;
+  }
+
+  .pizzaSlicer {
+    width: 10rem;
+    height: 10rem;
+    top: 1rem;
+    left: 2rem;
+  }
+
+  .svgContainer {
+    width: 100vw;
+    height: 12.5rem;
+
+    .pizzaSlice {
+      width: 12.5rem;
+      height: 12.5rem;
+      bottom: 1rem;
+      right: 2rem;
+    }
+  }
+
+  .menuItems {
+    width: 80vw;
+    margin-top: 2.4rem;
+  }
 }

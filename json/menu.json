@@ -1,0 +1,26 @@
+{
+  "pizza": [
+    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
+    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
+    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
+    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
+    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 }
+  ],
+  "desserts": [
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
+    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 }
+  ],
+  "drinks": [
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
+    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 }
+  ]
+}
