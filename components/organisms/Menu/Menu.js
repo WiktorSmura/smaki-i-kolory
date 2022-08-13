@@ -18,7 +18,7 @@ function Menu() {
 
   if (error) return <div>Failed to load</div>;
 
-  if (!data) return <div>Loading...</div>;
+  if (!data) return <section className={styles.menu}>Loading...</section>;
 
   console.log(menuValue);
 

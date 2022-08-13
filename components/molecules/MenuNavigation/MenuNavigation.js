@@ -15,7 +15,8 @@ function MenuNavigation() {
           setMenuValue("pizza");
         }}
       >
-        <MenuPizza className={styles.menuIcon} />
+        {/* <MenuPizza className={styles.menuIcon} /> */}
+        <div className={`${styles.menuIcon} ${styles.green}`}></div>
         <p className={styles.itemDescription}>Pizza</p>
       </button>
       <button
@@ -24,7 +25,8 @@ function MenuNavigation() {
           setMenuValue("drinks");
         }}
       >
-        <MenuDrink className={styles.menuIcon} />
+        {/* <MenuDrink className={styles.menuIcon} /> */}
+        <div className={`${styles.menuIcon} ${styles.blue}`}></div>
         <p className={styles.itemDescription}>Napoje</p>
       </button>
       <button
@@ -33,7 +35,8 @@ function MenuNavigation() {
           setMenuValue("desserts");
         }}
       >
-        <MenuDessert className={styles.menuIcon} />
+        {/* <MenuDessert className={styles.menuIcon} /> */}
+        <div className={`${styles.menuIcon} ${styles.orange}`}></div>
         <p className={styles.itemDescription}>Desery</p>
       </button>
     </div>

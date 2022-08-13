@@ -1,0 +1,17 @@
+@import "/styles/colors.scss";
+
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: $background;
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+
+  .logo {
+    width: 100%;
+    height: auto;
+    grid-column: 2/4;
+  }
+}
