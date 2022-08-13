@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <section className={styles.navbar}>
       <Logo className={styles.logo} />
-      <button className={styles.barsButton}>
+      <button className={styles.barsButton} aria-label="hamburger-menu">
         <FaBars className={styles.bars} />
       </button>
     </section>
