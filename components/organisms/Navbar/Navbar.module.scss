@@ -39,6 +39,17 @@
   }
 }
 
+@media (min-width: 769px) {
+  .navbar {
+    .logo {
+      position: absolute;
+      width: 55%;
+      height: 80%;
+      grid-column: 2/5;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   .navbar {
     display: flex;
@@ -60,6 +71,8 @@
     }
 
     .logo {
+      position: static;
+      height: auto;
       width: 10%;
       margin-left: 13.5rem;
     }

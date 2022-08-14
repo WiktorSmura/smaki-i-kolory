@@ -8,6 +8,7 @@
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
+  background-color: #4e4e4e;
 
   .logo {
     width: 100%;
@@ -16,14 +17,22 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 769px) {
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 15vh;
-    background-color: #4e4e4e;
 
+    .logo {
+      height: 30%;
+      width: auto;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
     .logo {
       height: 50%;
       width: auto;

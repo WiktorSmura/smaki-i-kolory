@@ -11,6 +11,16 @@
   }
 }
 
+@media (min-width: 769px) {
+  .gallery {
+    height: auto;
+    .image {
+      width: 50%;
+      height: 35vh;
+    }
+  }
+}
+
 @media (min-width: 1200px) {
   .gallery {
     height: auto;

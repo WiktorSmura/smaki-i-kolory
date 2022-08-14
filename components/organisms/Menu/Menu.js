@@ -6,6 +6,8 @@ import Heading2 from "/components/atoms/Heading2/Heading2";
 import MenuNavigation from "../../molecules/MenuNavigation/MenuNavigation";
 import MenuItem from "../../molecules/MenuItem/MenuItem";
 import { useAppContext } from "../../../context/AppContext";
+import { gsap } from "gsap";
+import { useEffect, useRef } from "react";
 
 const fetcher = (url) =>
   fetch(url)
@@ -15,6 +17,16 @@ const fetcher = (url) =>
 function Menu() {
   const { data, error } = useSWR("/api/menuData", fetcher);
   const { menuValue } = useAppContext();
+  const menuItemsRef = useRef();
+
+  useEffect(() => {
+    console.log(menuItemsRef.current);
+    gsap.fromTo(
+      menuItemsRef.current,
+      { opacity: 0 },
+      { opacity: 1, duration: 1 }
+    );
+  }, [menuValue]);
 
   if (error) return <div>Failed to load</div>;
 
@@ -25,7 +37,7 @@ function Menu() {
       <PizzaSlicer className={styles.pizzaSlicer} />
       <Heading2 text="Menu" />
       <MenuNavigation />
-      <div className={styles.menuItems}>
+      <div className={styles.menuItems} ref={menuItemsRef}>
         {data[menuValue].map(({ name, description, price }, index) => {
           return (
             <MenuItem

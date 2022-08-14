@@ -6,7 +6,8 @@
 
 @media (min-width: 1200px) {
   .map {
-    height: 60vh;
+    min-height: 60vh;
+    height: auto;
     width: 50%;
   }
 }
