@@ -7,24 +7,24 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 function ParallaxScroll() {
   const parentRef = useRef();
 
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.fromTo(
-      parentRef.current.children,
-      { objectPosition: "50% 0px" },
-      {
-        objectPosition: "50% -300px",
-        ease: "none",
-        scrollTrigger: {
-          trigger: parentRef.current,
-          start: "top bottom",
-          end: "80% top",
-          scrub: true,
-          invalidateOnRefresh: true,
-        },
-      }
-    );
-  });
+  // useEffect(() => {
+  //   gsap.registerPlugin(ScrollTrigger);
+  //   gsap.fromTo(
+  //     parentRef.current.children,
+  //     { objectPosition: "50% 0px" },
+  //     {
+  //       objectPosition: "50% -300px",
+  //       ease: "none",
+  //       scrollTrigger: {
+  //         trigger: parentRef.current,
+  //         start: "top bottom",
+  //         end: "80% top",
+  //         scrub: true,
+  //         invalidateOnRefresh: true,
+  //       },
+  //     }
+  //   );
+  // });
 
   return (
     <section className={styles.parallaxContainer} ref={parentRef}>
@@ -34,6 +34,7 @@ function ParallaxScroll() {
         alt="pizza-parallax-slider"
         layout="fill"
         objectFit="cover"
+        objectPosition={"50% -1000px"}
       ></Image>
     </section>
   );
