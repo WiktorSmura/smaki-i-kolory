@@ -3,3 +3,10 @@
   height: 30vh;
   border: none;
 }
+
+@media (min-width: 1200px) {
+  .map {
+    height: 60vh;
+    width: 50%;
+  }
+}

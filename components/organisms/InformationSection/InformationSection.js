@@ -8,26 +8,28 @@ import GoogleMap from "/components/molecules/GoogleMap/GoogleMap";
 function InformationSection() {
   return (
     <section className={styles.informationSection} id="informationSection">
-      <Heading2 text="Tu nas znajdziesz" />
-      <div className={styles.informationElement}>
-        <Phone />
-        <p>
-          <a href="tel:885-838-384">+48 885-838-384</a>
-          <br />
-          <a href="tel:885-830-043">+48 885-830-043</a>
-        </p>
-      </div>
-      <div className={styles.informationElement}>
-        <PlaceMarker />
-        <p>ul.Morelowa 4a lok. 2, Czapury 61-160</p>
-      </div>
-      <div className={styles.informationElement}>
-        <Calendar />
-        <p>
-          Pn-Pt 10-20
-          <br />
-          Sb-Nd 12-22
-        </p>
+      <div className={styles.informationWrapper}>
+        <Heading2 text="Tu nas znajdziesz" />
+        <div className={styles.informationElement}>
+          <Phone className={styles.icon} />
+          <p>
+            <a href="tel:885-838-384">+48 885-838-384</a>
+            <br />
+            <a href="tel:885-830-043">+48 885-830-043</a>
+          </p>
+        </div>
+        <div className={styles.informationElement}>
+          <PlaceMarker className={styles.icon} />
+          <p>ul.Morelowa 4a lok. 2, Czapury 61-160</p>
+        </div>
+        <div className={styles.informationElement}>
+          <Calendar className={styles.icon} />
+          <p>
+            Pn-Pt 10-20
+            <br />
+            Sb-Nd 12-22
+          </p>
+        </div>
       </div>
       <GoogleMap />
     </section>

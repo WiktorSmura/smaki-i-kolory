@@ -36,3 +36,26 @@
     margin-top: 2.4rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .menu {
+    .pizzaSlicer {
+      width: 23.7rem;
+      height: 23.7rem;
+    }
+
+    .menuItems {
+      display: flex;
+      flex-flow: row wrap;
+      width: 60vw;
+    }
+
+    .svgContainer {
+      height: 33.2rem;
+      .pizzaSlice {
+        width: 33.2rem;
+        right: 2rem;
+      }
+    }
+  }
+}

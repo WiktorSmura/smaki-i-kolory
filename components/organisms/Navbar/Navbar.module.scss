@@ -10,27 +10,58 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
   z-index: 1;
+
+  .logo {
+    width: 100%;
+    height: auto;
+    grid-column: 2/4;
+  }
+
+  .barsButton {
+    padding: 0;
+    border: none;
+    background-color: inherit;
+    color: white;
+    width: 30%;
+    height: auto;
+    grid-column: 4/5;
+    justify-self: end;
+    margin-right: 10vw;
+  }
+
+  .bars {
+    width: 100%;
+    height: 100%;
+  }
+
+  .links {
+    display: none;
+  }
 }
 
-.logo {
-  width: 100%;
-  height: auto;
-  grid-column: 2/4;
-}
+@media (min-width: 1200px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
 
-.barsButton {
-  padding: 0;
-  border: none;
-  background-color: inherit;
-  color: white;
-  width: 30%;
-  height: auto;
-  grid-column: 4/5;
-  justify-self: end;
-  margin-right: 10vw;
-}
+    .links {
+      display: flex;
+      justify-content: flex-end;
+      width: 40%;
 
-.bars {
-  width: 100%;
-  height: 100%;
+      a {
+        font-size: 2.4rem;
+        margin-right: 15%;
+      }
+    }
+
+    .barsButton {
+      display: none;
+    }
+
+    .logo {
+      width: 10%;
+      margin-left: 13.5rem;
+    }
+  }
 }

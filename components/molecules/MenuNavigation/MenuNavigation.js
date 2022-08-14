@@ -1,8 +1,5 @@
 import { useAppContext } from "../../../context/AppContext";
 import styles from "./MenuNavigation.module.scss";
-import MenuPizza from "/public/svg/pizza-menu-svgrepo-com.svg";
-import MenuDrink from "/public/svg/hot-drink-svgrepo-com.svg";
-import MenuDessert from "/public/svg/pancakes-svgrepo-com.svg";
 
 function MenuNavigation() {
   const { setMenuValue } = useAppContext();
@@ -15,7 +12,6 @@ function MenuNavigation() {
           setMenuValue("pizza");
         }}
       >
-        {/* <MenuPizza className={styles.menuIcon} /> */}
         <div className={`${styles.menuIcon} ${styles.green}`}></div>
         <p className={styles.itemDescription}>Pizza</p>
       </button>
@@ -25,7 +21,6 @@ function MenuNavigation() {
           setMenuValue("drinks");
         }}
       >
-        {/* <MenuDrink className={styles.menuIcon} /> */}
         <div className={`${styles.menuIcon} ${styles.blue}`}></div>
         <p className={styles.itemDescription}>Napoje</p>
       </button>
@@ -35,7 +30,6 @@ function MenuNavigation() {
           setMenuValue("desserts");
         }}
       >
-        {/* <MenuDessert className={styles.menuIcon} /> */}
         <div className={`${styles.menuIcon} ${styles.orange}`}></div>
         <p className={styles.itemDescription}>Desery</p>
       </button>

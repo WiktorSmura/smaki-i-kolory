@@ -9,3 +9,9 @@
     z-index: -1;
   }
 }
+
+@media (min-width: 1200px) {
+  .parallaxContainer {
+    height: 35vh;
+  }
+}

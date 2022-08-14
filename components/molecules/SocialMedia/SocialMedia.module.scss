@@ -22,3 +22,17 @@
     color: $text;
   }
 }
+
+@media (min-width: 1200px) {
+  .socialMedia {
+    height: 15vh;
+    .icon {
+      width: 6.4rem;
+      height: 6.4rem;
+    }
+
+    .heading {
+      font-size: 4.8rem;
+    }
+  }
+}

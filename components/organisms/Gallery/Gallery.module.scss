@@ -10,3 +10,43 @@
     height: auto;
   }
 }
+
+@media (min-width: 1200px) {
+  .gallery {
+    height: auto;
+    .image {
+      width: 33.3%;
+      height: 40vh;
+
+      &:hover {
+        p {
+          opacity: 1;
+          transition: all 0.5s;
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          background-color: black;
+          width: 100%;
+          height: 100%;
+          position: relative;
+          top: 0;
+          left: 0;
+          opacity: 0.3;
+        }
+      }
+
+      p {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        color: white;
+        font-size: 3.2rem;
+        margin: 0;
+        opacity: 0;
+        z-index: 1;
+      }
+    }
+  }
+}

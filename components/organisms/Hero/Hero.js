@@ -2,6 +2,7 @@ import styles from "./Hero.module.scss";
 import Image from "next/image";
 import Divider from "/public/svg/wave-divider.svg";
 import Logo from "/public/svg/logo.svg";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -15,7 +16,9 @@ function Hero() {
           className={styles.backgroundImage}
         />
         <Logo className={styles.logo} />
-        <button className={styles.callToAction}>Sprawdź nasze menu</button>
+        <Link href="#menu" passHref>
+          <button className={styles.callToAction}>Sprawdź nasze menu</button>
+        </Link>
         <Divider className={styles.divider} />
       </section>
     </>
