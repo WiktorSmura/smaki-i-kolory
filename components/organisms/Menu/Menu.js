@@ -20,8 +20,6 @@ function Menu() {
 
   if (!data) return <section className={styles.menu}>Loading...</section>;
 
-  console.log(menuValue);
-
   return (
     <section className={styles.menu} id="menu">
       <PizzaSlicer className={styles.pizzaSlicer} />
