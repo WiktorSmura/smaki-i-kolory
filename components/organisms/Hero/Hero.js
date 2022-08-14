@@ -2,7 +2,7 @@ import styles from "./Hero.module.scss";
 import Image from "next/image";
 import Divider from "/public/svg/wave-divider.svg";
 import Logo from "/public/svg/logo.svg";
-import Link from "next/link";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 function Hero() {
   return (
@@ -16,9 +16,10 @@ function Hero() {
           className={styles.backgroundImage}
         />
         <Logo className={styles.logo} />
-        <Link href="#menu" passHref>
-          <button className={styles.callToAction}>Sprawdź nasze menu</button>
-        </Link>
+        <button className={styles.callToAction}>
+          {/* Sprawdź nasze menu */}
+          <AiOutlineArrowDown className={styles.arrow} />
+        </button>
         <Divider className={styles.divider} />
       </section>
     </>
