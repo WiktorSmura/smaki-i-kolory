@@ -11,6 +11,10 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="description"
+            content="Strona restauracji Smaki i kolory. Sprawdź nasze menu i naszą lokalizację."
+          />
         </Head>
         <body>
           <Main />
