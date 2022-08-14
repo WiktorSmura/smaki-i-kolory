@@ -7,14 +7,14 @@ import GoogleMap from "/components/molecules/GoogleMap/GoogleMap";
 
 function InformationSection() {
   return (
-    <section className={styles.informationSection}>
+    <section className={styles.informationSection} id="informationSection">
       <Heading2 text="Tu nas znajdziesz" />
       <div className={styles.informationElement}>
         <Phone />
         <p>
-          885 838 384
+          <a href="tel:885-838-384">+48 885-838-384</a>
           <br />
-          885 830 043
+          <a href="tel:885-830-043">+48 885-830-043</a>
         </p>
       </div>
       <div className={styles.informationElement}>

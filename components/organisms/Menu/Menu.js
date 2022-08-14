@@ -23,7 +23,7 @@ function Menu() {
   console.log(menuValue);
 
   return (
-    <section className={styles.menu}>
+    <section className={styles.menu} id="menu">
       <PizzaSlicer className={styles.pizzaSlicer} />
       <Heading2 text="Menu" />
       <MenuNavigation />
