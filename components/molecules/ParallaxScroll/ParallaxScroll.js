@@ -11,9 +11,9 @@ function ParallaxScroll() {
   //   gsap.registerPlugin(ScrollTrigger);
   //   gsap.fromTo(
   //     parentRef.current.children,
-  //     { objectPosition: "50% 0px" },
+  //     { objectPosition: "top" },
   //     {
-  //       objectPosition: "50% -300px",
+  //       objectPosition: "50%",
   //       ease: "none",
   //       scrollTrigger: {
   //         trigger: parentRef.current,
@@ -34,7 +34,7 @@ function ParallaxScroll() {
         alt="pizza-parallax-slider"
         layout="fill"
         objectFit="cover"
-        objectPosition={"50% -1000px"}
+        objectPosition={"50%"}
       ></Image>
     </section>
   );
