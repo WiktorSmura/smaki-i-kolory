@@ -8,31 +8,40 @@
   align-items: center;
   background: $background;
 
-  .icon {
-    width: 3.2rem;
-    height: 3.2rem;
-    margin-right: 1.6rem;
-    z-index: 1;
-  }
+  .wrapper {
+    display: flex;
+    align-items: center;
 
-  .heading {
-    font-size: 2.4rem;
-    font-weight: 400;
-    z-index: 1;
-    color: $text;
+    .icon {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 1.6rem;
+      color: white;
+      z-index: 1;
+    }
+
+    .heading {
+      font-size: 2rem;
+      font-weight: 400;
+      z-index: 1;
+      color: $text;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .socialMedia {
     height: 15vh;
-    .icon {
-      width: 6.4rem;
-      height: 6.4rem;
-    }
 
-    .heading {
-      font-size: 4.8rem;
+    .wrapper {
+      .icon {
+        width: 6.4rem;
+        height: 6.4rem;
+      }
+
+      .heading {
+        font-size: 4.8rem;
+      }
     }
   }
 }
