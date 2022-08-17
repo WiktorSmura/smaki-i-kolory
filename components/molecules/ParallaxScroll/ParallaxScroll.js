@@ -5,36 +5,35 @@ import { gsap } from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 function ParallaxScroll() {
-  const parentRef = useRef();
-
   // useEffect(() => {
   //   gsap.registerPlugin(ScrollTrigger);
   //   gsap.fromTo(
-  //     parentRef.current.children,
+  //     imageRef.current,
   //     { objectPosition: "top" },
   //     {
   //       objectPosition: "50%",
   //       ease: "none",
   //       scrollTrigger: {
-  //         trigger: parentRef.current,
+  //         trigger: imageRef.current,
   //         start: "top bottom",
   //         end: "80% top",
   //         scrub: true,
   //         invalidateOnRefresh: true,
+  //         markers: true,
   //       },
   //     }
   //   );
   // });
 
   return (
-    <section className={styles.parallaxContainer} ref={parentRef}>
+    <section className={styles.parallaxContainer}>
       <Image
         className={styles.background}
-        src="/images/pizza-parallax-slider.jpg"
-        alt="pizza-parallax-slider"
+        src="/images/parallax-image.JPG"
+        alt="parallax-slider"
         layout="fill"
         objectFit="cover"
-        objectPosition={"50%"}
+        objectPosition={"top"}
       ></Image>
     </section>
   );

@@ -9,7 +9,7 @@ function Hero() {
     <>
       <section className={styles.hero}>
         <Image
-          src="/images/restaurant-hero.jpg"
+          src="/images/hero-image.JPG"
           alt="background-image"
           layout="fill"
           objectFit="cover"

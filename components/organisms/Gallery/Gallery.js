@@ -6,57 +6,58 @@ function Gallery() {
     <section className={styles.gallery}>
       <div className={styles.image}>
         <Image
-          src="/images/pizza1.jpg"
+          src="/images/pizza-rzeznicka.JPG"
           layout="fill"
           alt="pizza image"
           objectFit="cover"
         />
-        <p>pizza 1</p>
+        <p>Pizza rzeźnicka</p>
       </div>
       <div className={styles.image}>
         <Image
-          src="/images/pasta1.jpg"
+          src="/images/bolognese.JPG"
           layout="fill"
           alt="pasta image"
           objectFit="cover"
         />
-        <p>pasta 1</p>
+        <p>Makaron bolognese</p>
       </div>
       <div className={styles.image}>
         <Image
-          src="/images/dessert1.jpg"
+          src="/images/krem-pomidorowy.JPG"
+          layout="fill"
+          alt="tomato soup"
+          objectPosition={"top"}
+          objectFit="cover"
+        />
+        <p>Krem pomidorowy</p>
+      </div>
+      <div className={styles.image}>
+        <Image
+          src="/images/salatka-grecka.JPG"
+          layout="fill"
+          alt="salad"
+          objectFit="cover"
+        />
+        <p>Sałatka grecka</p>
+      </div>
+      <div className={styles.image}>
+        <Image
+          src="/images/pizza-cztery-sery.JPG"
           layout="fill"
           alt="dessert image"
           objectFit="cover"
         />
-        <p>dessert 1</p>
+        <p>Pizza cztery sery</p>
       </div>
       <div className={styles.image}>
         <Image
-          src="/images/pizza2.jpg"
-          layout="fill"
-          alt="pizza image"
-          objectFit="cover"
-        />
-        <p>pizza 2</p>
-      </div>
-      <div className={styles.image}>
-        <Image
-          src="/images/dessert2.jpg"
-          layout="fill"
-          alt="dessert image"
-          objectFit="cover"
-        />
-        <p>dessert 2</p>
-      </div>
-      <div className={styles.image}>
-        <Image
-          src="/images/pasta2.jpg"
+          src="/images/carbonara.JPG"
           layout="fill"
           alt="pasta image"
           objectFit="cover"
         />
-        <p>pasta 2</p>
+        <p>Makaron carbonara</p>
       </div>
     </section>
   );
