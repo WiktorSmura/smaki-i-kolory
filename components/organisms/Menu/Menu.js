@@ -53,9 +53,9 @@ function Menu() {
         })}
         {menuValue === "Pizza" && <Sauces sauces={data["Sosy"]} />}
       </div>
-      <div className={styles.svgContainer}>
+      {/* <div className={styles.svgContainer}>
         <PizzaSlice className={styles.pizzaSlice} />
-      </div>
+      </div> */}
     </section>
   );
 }

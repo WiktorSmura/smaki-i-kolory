@@ -24,11 +24,7 @@ function InformationSection() {
         </div>
         <div className={styles.informationElement}>
           <Calendar className={styles.icon} />
-          <p>
-            Pn-Pt 10-20
-            <br />
-            Sb-Nd 12-22
-          </p>
+          <p>Pn-Nd 12-22</p>
         </div>
       </div>
       <GoogleMap />

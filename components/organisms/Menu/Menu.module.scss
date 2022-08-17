@@ -3,6 +3,7 @@
 .menu {
   width: 100vw;
   min-height: 90vh;
+  padding: 2.4rem 0;
   background: $background;
   display: flex;
   flex-direction: column;
@@ -48,6 +49,7 @@
 
 @media (min-width: 1200px) {
   .menu {
+    padding: 4rem 0;
     .pizzaSlicer {
       width: 23.7rem;
       height: 23.7rem;
