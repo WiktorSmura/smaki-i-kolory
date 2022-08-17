@@ -3,9 +3,11 @@ import AppProvider from "../context/AppContext";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <AppProvider>
-      <Component {...pageProps} />
-    </AppProvider>
+    <>
+      <AppProvider>
+        <Component {...pageProps} />
+      </AppProvider>
+    </>
   );
 }
 

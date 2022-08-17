@@ -1,7 +1,6 @@
 import styles from "./Sauces.module.scss";
 
 function Sauces({ sauces }) {
-  console.log(sauces);
   return (
     <div className={styles.sauces}>
       <h4>Sosy 3.50 zł</h4>
