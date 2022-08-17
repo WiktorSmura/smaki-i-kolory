@@ -16,7 +16,7 @@ function SocialMedia() {
         </div>
       </a>
       <a
-        href="https://www.facebook.com/104422832362389/posts/pfbid0rA3BJmhzTuw6uDX6DJQW6mWEeFfXpjws5qhC5NXvzeMtJ7CHpLEPqnv1hjp9S49ul/?d=n"
+        href="https://www.facebook.com/104422832362389/"
         target="_blank"
         rel="noreferrer"
       >
