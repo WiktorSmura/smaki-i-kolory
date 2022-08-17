@@ -16,8 +16,7 @@ function Hero() {
           className={styles.backgroundImage}
         />
         <Logo className={styles.logo} />
-        <button className={styles.callToAction}>
-          {/* Sprawdź nasze menu */}
+        <button className={styles.callToAction} aria-label="arrow down">
           <AiOutlineArrowDown className={styles.arrow} />
         </button>
         <Divider className={styles.divider} />
