@@ -1,0 +1,39 @@
+@import "/styles/colors.scss";
+
+.sauces {
+  width: 80%;
+  margin: 0 auto;
+  background-color: $background;
+  border: 1px solid $text;
+  padding: 3.2rem;
+  margin-bottom: 2rem;
+  color: $text;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sauces {
+    width: 60%;
+
+    h4 {
+      font-size: 2.4rem;
+    }
+
+    p {
+      font-size: 2.2rem;
+    }
+  }
+}

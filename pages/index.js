@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Smaki i kolory</title>
+        <title>Smaki i Kolory Pizza & Restaurant Czapury</title>
       </Head>
       {hamburgerActive && <HamburgerMenu />}
       <Navbar />

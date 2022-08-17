@@ -1,26 +1,241 @@
 {
-  "pizza": [
-    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
-    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
-    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
-    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 },
-    { "name": "nazwa pizzy", "description": "opis pizzy", "price": 12 }
+  "Pizza": [
+    {
+      "name": "margherita",
+      "description": "sos, ser, oregano",
+      "price": [24, 28]
+    },
+    {
+      "name": "funghi",
+      "description": "sos, ser, pieczarki, oregano",
+      "price": [26, 32]
+    },
+    {
+      "name": "cacciatore",
+      "description": "sos, ser, salami, oregano",
+      "price": [27, 34]
+    },
+    {
+      "name": "vesuvio",
+      "description": "sos, ser, szynka, oregano",
+      "price": [27, 34]
+    },
+    {
+      "name": "capricciosa",
+      "description": "sos, ser, szynka, pieczarki, oregano",
+      "price": [29, 36]
+    },
+    {
+      "name": "hawajska",
+      "description": "sos, ser, szynka, ananas, oregano",
+      "price": [29, 36]
+    },
+    {
+      "name": "cztery sery",
+      "description": "sos, mozzarella, gouda, camembert, brie",
+      "price": [35, 43]
+    },
+    {
+      "name": "grecka",
+      "description": "sos, ser, feta, pomidor, oliwki czarne, cebula czerwona, papryka świeża, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "broccoli",
+      "description": "sos śmietanowy, ser, brokuły, camembert, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "wegańska",
+      "description": "sos, ser wegański, pieczarki, oliwki zielone, cebula, papryka kolorowa, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "poznańska pyra",
+      "description": "sos śmietanowy, ser, lazur, pyra, boczek, czosnek, rozmaryn",
+      "price": [34, 42]
+    },
+    {
+      "name": "czapurska",
+      "description": "sos, ser, pieczarki, szynka, boczek, cebula biała, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "rzeźnicka",
+      "description": "sos, ser, szynka, salami, boczek, cebula biała, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "kebab",
+      "description": "sos, ser, mięso drobiowe kebab, kapusta pekińska, ogórek świeży, cebula czerwona, sos czosnkowy, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "ostra jazda",
+      "description": "sos ostry, ser, salami, boczek, ser lazur, oliwki zielone, cebula, jalapeno, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "prosciutto",
+      "description": "sos, ser, szynka prosciutto, rukola, pomidory koktailowe, parmezan",
+      "price": [38, 46]
+    },
+    {
+      "name": "krewetka",
+      "description": "sos, ser, krewetki, pieprz cytrynowy",
+      "price": [35, 43]
+    },
+    {
+      "name": "frutti di mare",
+      "description": "sos, ser, mix owoców morza, cytryna, pieprz cytrynowy",
+      "price": [34, 42]
+    },
+    {
+      "name": "tuna",
+      "description": "sos, ser, tuńczyk, kapary, cebula",
+      "price": [33, 42]
+    },
+    {
+      "name": "szpinakowa",
+      "description": "sos śmietanowy, farsz szpinakowy z czosnkiem, boczek, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "barbecue",
+      "description": "sos barbecue, ser, kurczak, boczek, cebula, oregano",
+      "price": [34, 42]
+    }
   ],
-  "desserts": [
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 },
-    { "name": "nazwa deseru", "description": "opis deseru", "price": 12 }
+  "Zupy": [
+    {
+      "name": "krem pomidorowy",
+      "description": "podawany z grassini",
+      "price": [11]
+    },
+    {
+      "name": "krem brokułowy",
+      "description": "podawany z grassini",
+      "price": [11]
+    },
+    {
+      "name": "krem pieczarkowy",
+      "description": "podawany z grassini",
+      "price": [11]
+    },
+    {
+      "name": "krem z białych warzyw",
+      "description": "podawany z grassini",
+      "price": [11]
+    },
+    {
+      "name": "żurek",
+      "description": "podawany z bułką",
+      "price": [16]
+    }
   ],
-  "drinks": [
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 },
-    { "name": "nazwa napoju", "description": "opis napoju", "price": 12 }
+  "Makarony": [
+    { "name": "arrabiatta", "description": "", "price": [18] },
+    { "name": "bolognese", "description": "", "price": [19] },
+    { "name": "carbonara", "description": "", "price": [20] },
+    { "name": "zielone pesto", "description": "", "price": [19] },
+    { "name": "serowo-brokułowy", "description": "", "price": [24] }
+  ],
+  "Sałatki": [
+    {
+      "name": "grecka",
+      "description": "sałata, pomidor, papryka świeża, ogórek, oliwki czarne, cebula czerwona, ser feta, sos vinegre",
+      "price": [24]
+    },
+    {
+      "name": "kebab",
+      "description": "sałata, pomidory, ogórek, mięso drobiowe kebab, cebula, sos czosnkowy",
+      "price": [26]
+    },
+    {
+      "name": "nicejska",
+      "description": "sałata, pomidory, tuńczyk, jajko, kapary, cebula czerwona, sos vinegre",
+      "price": [26]
+    },
+    {
+      "name": "prosciutto",
+      "description": "rukola, pomidory koktailowe, szynka prosciutto, kapary, parmezan, sos vinegre",
+      "price": [27]
+    },
+    {
+      "name": "smaki i kolory",
+      "description": "rukola, mozzarella, pomidory suszone, oliwki zielone i czarne, ogórek świeży, papryka świeża, sos vinegre",
+      "price": [24]
+    }
+  ],
+  "Burgery": [
+    {
+      "name": "chicken",
+      "description": "bułka własnego wypieku, mięso drobiowe, pomidor, sałata, ogórek, cebula czerwona, ketchup, majonez",
+      "price": [26]
+    },
+    {
+      "name": "classic",
+      "description": "bułka własnego wypieku, mięso wieprzowe, pomidor, sałata, ogórek, cebula czerwona, ketchup, majonez",
+      "price": [27]
+    },
+    {
+      "name": "cheeseburger",
+      "description": "bułka własnego wypieku, mięso wieprzowe, boczek, ser, pomidor, sałata, ogórek, cebula czerwona, sos barbecue",
+      "price": [28]
+    },
+    {
+      "name": "wege",
+      "description": "bułka własnego wypieku, tofu grillowane, pomidor, sałata, ogórek, cebula czerwona, sos barbecue",
+      "price": [27]
+    }
+  ],
+  "Inne": [
+    {
+      "name": "zestaw dziecięcy",
+      "description": "nuggetsy, frytki, warzywa",
+      "price": [19]
+    },
+    {
+      "name": "kebab w zestawie",
+      "description": "mięso drobiowe kebab, frytki, surówka",
+      "price": [25]
+    },
+    {
+      "name": "frytki",
+      "description": "",
+      "price": [8]
+    },
+    {
+      "name": "sosy",
+      "description": "",
+      "price": [3.5]
+    }
+  ],
+  "Sosy": [
+    {
+      "name": "ketchup",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "czosnkowy",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "barbecue",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "red hot",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "chrzanowy",
+      "description": "",
+      "price": [3.5]
+    }
   ]
 }

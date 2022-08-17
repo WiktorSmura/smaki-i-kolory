@@ -13,7 +13,7 @@
     margin: 0;
     color: $text;
     white-space: nowrap;
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
 
   .menuItemName {
@@ -30,7 +30,9 @@
   }
 
   .description {
+    font-size: 1.2rem;
     margin-bottom: 2.4rem;
+    white-space: pre-line;
     color: $text;
   }
 }
@@ -45,6 +47,7 @@
     }
 
     .description {
+      font-size: 2.2rem;
       margin-bottom: 4rem;
     }
   }

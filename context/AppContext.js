@@ -3,7 +3,7 @@ import React, { useState, useContext } from "react";
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
-  const [menuValue, setMenuValue] = useState("pizza");
+  const [menuValue, setMenuValue] = useState("Pizza");
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   const value = {
