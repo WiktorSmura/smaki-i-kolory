@@ -13,7 +13,7 @@ function InformationSection() {
         <div className={styles.informationElement}>
           <Phone className={styles.icon} />
           <p>
-            <a href="tel:885-838-384">+48 885-838-384</a>
+            <a href="tel:885-838-384">+48 885-83-83-84</a>
           </p>
         </div>
         <div className={styles.informationElement}>

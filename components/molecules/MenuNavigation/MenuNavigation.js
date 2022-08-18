@@ -68,6 +68,15 @@ function MenuNavigation() {
       <button
         className={styles.menuNavigationItem}
         onClick={() => {
+          setMenuValue("Napoje");
+        }}
+      >
+        <div className={`${styles.menuIcon} ${styles.red}`}></div>
+        <p className={styles.itemDescription}>Napoje</p>
+      </button>
+      <button
+        className={styles.menuNavigationItem}
+        onClick={() => {
           setMenuValue("Inne");
         }}
       >

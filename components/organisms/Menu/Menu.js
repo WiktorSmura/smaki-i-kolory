@@ -6,6 +6,7 @@ import Heading2 from "/components/atoms/Heading2/Heading2";
 import MenuNavigation from "../../molecules/MenuNavigation/MenuNavigation";
 import MenuItem from "../../molecules/MenuItem/MenuItem";
 import Sauces from "../../molecules/Sauces/Sauces";
+import Delivery from "../../molecules/Delivery/Delivery";
 import { useAppContext } from "../../../context/AppContext";
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
@@ -53,9 +54,7 @@ function Menu() {
         })}
         {menuValue === "Pizza" && <Sauces sauces={data["Sosy"]} />}
       </div>
-      {/* <div className={styles.svgContainer}>
-        <PizzaSlice className={styles.pizzaSlice} />
-      </div> */}
+      <Delivery />
     </section>
   );
 }

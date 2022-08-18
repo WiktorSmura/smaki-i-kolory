@@ -20,7 +20,7 @@ function Gallery() {
           alt="pasta image"
           objectFit="cover"
         />
-        <p>Makaron bolognese</p>
+        <p>Makaron arrabiatta</p>
       </div>
       <div className={styles.image}>
         <Image
@@ -36,7 +36,7 @@ function Gallery() {
         <Image
           src="/images/salatka-grecka.JPG"
           layout="fill"
-          alt="salad"
+          alt="greek salad"
           objectFit="cover"
         />
         <p>Sałatka grecka</p>
@@ -45,7 +45,7 @@ function Gallery() {
         <Image
           src="/images/pizza-cztery-sery.JPG"
           layout="fill"
-          alt="dessert image"
+          alt="pizza 4 cheese image"
           objectFit="cover"
         />
         <p>Pizza cztery sery</p>
@@ -54,7 +54,7 @@ function Gallery() {
         <Image
           src="/images/carbonara.JPG"
           layout="fill"
-          alt="pasta image"
+          alt="carbonara image"
           objectFit="cover"
         />
         <p>Makaron carbonara</p>

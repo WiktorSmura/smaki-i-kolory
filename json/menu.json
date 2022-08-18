@@ -237,5 +237,102 @@
       "description": "",
       "price": [3.5]
     }
+  ],
+  "Napoje": [
+    {
+      "name": "karawka wody z miętą i owocami 1l",
+      "description": "",
+      "price": [10]
+    },
+    {
+      "name": "kropla beskidu niegazowana 0,33l",
+      "description": "",
+      "price": [4]
+    },
+    {
+      "name": "kropla beskidu gazowana 0,33l",
+      "description": "",
+      "price": [4]
+    },
+    {
+      "name": "cola/cola zero/sprite/fanta 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "sok cappy 0,33l",
+      "description": "",
+      "price": [6]
+    },
+    {
+      "name": "tonic 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "fuze tea 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "energetyk burn 0,25l",
+      "description": "",
+      "price": [6]
+    },
+    {
+      "name": "espresso",
+      "description": "",
+      "price": [7]
+    },
+    {
+      "name": "podwójne espresso",
+      "description": "",
+      "price": [9]
+    },
+    {
+      "name": "cappuccino",
+      "description": "",
+      "price": [10]
+    },
+    {
+      "name": "cappuccino na mleku roślinnym",
+      "description": "",
+      "price": [12]
+    },
+    {
+      "name": "latte",
+      "description": "",
+      "price": [11]
+    },
+    {
+      "name": "latte na mleku roślinnym",
+      "description": "",
+      "price": [13]
+    },
+    {
+      "name": "americano",
+      "description": "",
+      "price": [9]
+    },
+    {
+      "name": "herbata",
+      "description": "",
+      "price": [7]
+    },
+    {
+      "name": "koktajl owocowy",
+      "description": "",
+      "price": [12]
+    },
+    {
+      "name": "piwo lane okocim export 0,5l",
+      "description": "",
+      "price": [9.5]
+    },
+    {
+      "name": "somersby 0,4l",
+      "description": "",
+      "price": [8]
+    }
   ]
 }
