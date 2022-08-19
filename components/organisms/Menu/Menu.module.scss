@@ -1,14 +1,77 @@
+@import "/styles/colors.scss";
+
 .menu {
-  position: absolute;
   width: 100vw;
-  min-height: 100vh;
-  background: linear-gradient(
-    180deg,
-    #dbe95b 0%,
-    rgba(129, 209, 114, 0.697917) 20%,
-    rgba(45, 178, 135, 0.697917) 40%,
-    rgba(0, 143, 140, 0.512533) 60%,
-    rgba(17, 107, 123, 0.512533) 80%,
-    rgba(47, 72, 88, 0.5) 100%
-  );
+  min-height: 90vh;
+  padding: 2.4rem 0;
+  background: $background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -2;
+
+  .pizzaSlicer,
+  .pizzaSlice {
+    position: absolute;
+  }
+
+  .pizzaSlicer {
+    width: 10rem;
+    height: 10rem;
+    top: calc(100vh + 1rem);
+    left: 2rem;
+  }
+
+  .svgContainer {
+    width: 100vw;
+    height: 12.5rem;
+
+    .pizzaSlice {
+      width: 12.5rem;
+      right: 2rem;
+    }
+  }
+
+  .subheading {
+    color: $text;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+  }
+
+  .menuItems {
+    width: 80vw;
+    margin-top: 2.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu {
+    padding: 4rem 0;
+    .pizzaSlicer {
+      width: 23.7rem;
+      height: 23.7rem;
+    }
+
+    .subheading {
+      font-size: 3.2rem;
+      margin-bottom: 4rem;
+    }
+
+    .menuItems {
+      display: flex;
+      flex-flow: row wrap;
+      width: 60vw;
+    }
+
+    .svgContainer {
+      height: 33.2rem;
+      .pizzaSlice {
+        width: 33.2rem;
+        right: 2rem;
+      }
+    }
+  }
 }

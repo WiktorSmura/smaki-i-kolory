@@ -1,0 +1,54 @@
+@import "/styles/colors.scss";
+
+.menuItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding: 0 6rem;
+  margin-bottom: 2.4rem;
+
+  p {
+    margin: 0;
+    color: $text;
+    white-space: nowrap;
+    font-size: 1.4rem;
+  }
+
+  .menuItemName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span.line {
+      width: 100%;
+      height: 1px;
+      border-bottom: 1px solid white;
+      margin: 0 1rem;
+    }
+  }
+
+  .description {
+    font-size: 1.2rem;
+    margin-bottom: 2.4rem;
+    white-space: pre-line;
+    color: $text;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menuItem {
+    width: 50%;
+    margin-bottom: 4rem;
+
+    p {
+      font-size: 2.4rem;
+    }
+
+    .description {
+      font-size: 2.2rem;
+      margin-bottom: 4rem;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import "/styles/colors.scss";
+
+.socialMedia {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $background;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 1.6rem;
+      color: white;
+      z-index: 1;
+    }
+
+    .heading {
+      font-size: 2rem;
+      font-weight: 400;
+      z-index: 1;
+      color: $text;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .socialMedia {
+    height: 15vh;
+
+    .wrapper {
+      .icon {
+        width: 6.4rem;
+        height: 6.4rem;
+      }
+
+      .heading {
+        font-size: 4.8rem;
+      }
+    }
+  }
+}

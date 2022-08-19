@@ -1,0 +1,338 @@
+{
+  "Pizza": [
+    {
+      "name": "margherita",
+      "description": "sos, ser, oregano",
+      "price": [24, 28]
+    },
+    {
+      "name": "funghi",
+      "description": "sos, ser, pieczarki, oregano",
+      "price": [26, 32]
+    },
+    {
+      "name": "cacciatore",
+      "description": "sos, ser, salami, oregano",
+      "price": [27, 34]
+    },
+    {
+      "name": "vesuvio",
+      "description": "sos, ser, szynka, oregano",
+      "price": [27, 34]
+    },
+    {
+      "name": "capricciosa",
+      "description": "sos, ser, szynka, pieczarki, oregano",
+      "price": [29, 36]
+    },
+    {
+      "name": "hawajska",
+      "description": "sos, ser, szynka, ananas, oregano",
+      "price": [29, 36]
+    },
+    {
+      "name": "cztery sery",
+      "description": "sos, mozzarella, gouda, camembert, brie",
+      "price": [35, 43]
+    },
+    {
+      "name": "grecka",
+      "description": "sos, ser, feta, pomidor, oliwki czarne, cebula czerwona, papryka świeża, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "broccoli",
+      "description": "sos śmietanowy, ser, brokuły, camembert, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "wegańska",
+      "description": "sos, ser wegański, pieczarki, oliwki zielone, cebula, papryka kolorowa, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "poznańska pyra",
+      "description": "sos śmietanowy, ser, lazur, pyra, boczek, czosnek, rozmaryn",
+      "price": [34, 42]
+    },
+    {
+      "name": "czapurska",
+      "description": "sos, ser, pieczarki, szynka, boczek, cebula biała, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "rzeźnicka",
+      "description": "sos, ser, szynka, salami, boczek, cebula biała, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "kebab",
+      "description": "sos, ser, mięso drobiowe kebab, kapusta pekińska, ogórek świeży, cebula czerwona, sos czosnkowy, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "ostra jazda",
+      "description": "sos ostry, ser, salami, boczek, ser lazur, oliwki zielone, cebula, jalapeno, oregano",
+      "price": [36, 43]
+    },
+    {
+      "name": "prosciutto",
+      "description": "sos, ser, szynka prosciutto, rukola, pomidory koktailowe, parmezan",
+      "price": [38, 46]
+    },
+    {
+      "name": "krewetka",
+      "description": "sos, ser, krewetki, pieprz cytrynowy",
+      "price": [35, 43]
+    },
+    {
+      "name": "frutti di mare",
+      "description": "sos, ser, mix owoców morza, cytryna, pieprz cytrynowy",
+      "price": [34, 42]
+    },
+    {
+      "name": "tuna",
+      "description": "sos, ser, tuńczyk, kapary, cebula",
+      "price": [33, 42]
+    },
+    {
+      "name": "szpinakowa",
+      "description": "sos śmietanowy, farsz szpinakowy z czosnkiem, boczek, oregano",
+      "price": [34, 42]
+    },
+    {
+      "name": "barbecue",
+      "description": "sos barbecue, ser, kurczak, boczek, cebula, oregano",
+      "price": [34, 42]
+    }
+  ],
+  "Zupy": [
+    {
+      "name": "krem pomidorowy",
+      "description": "podawany z grissini",
+      "price": [11]
+    },
+    {
+      "name": "krem brokułowy",
+      "description": "podawany z grissini",
+      "price": [11]
+    },
+    {
+      "name": "krem pieczarkowy",
+      "description": "podawany z grissini",
+      "price": [11]
+    },
+    {
+      "name": "krem z białych warzyw",
+      "description": "podawany z grissini",
+      "price": [11]
+    },
+    {
+      "name": "żurek",
+      "description": "podawany z bułką",
+      "price": [16]
+    }
+  ],
+  "Makarony": [
+    { "name": "arrabiatta", "description": "", "price": [18] },
+    { "name": "bolognese", "description": "", "price": [19] },
+    { "name": "carbonara", "description": "", "price": [20] },
+    { "name": "zielone pesto", "description": "", "price": [19] },
+    { "name": "serowo-brokułowy", "description": "", "price": [24] }
+  ],
+  "Sałatki": [
+    {
+      "name": "grecka",
+      "description": "sałata, pomidor, papryka świeża, ogórek, oliwki czarne, cebula czerwona, ser feta, sos vinegre",
+      "price": [24]
+    },
+    {
+      "name": "kebab",
+      "description": "sałata, pomidory, ogórek, mięso drobiowe kebab, cebula, sos czosnkowy",
+      "price": [26]
+    },
+    {
+      "name": "nicejska",
+      "description": "sałata, pomidory, tuńczyk, jajko, kapary, cebula czerwona, sos vinegre",
+      "price": [26]
+    },
+    {
+      "name": "prosciutto",
+      "description": "rukola, pomidory koktailowe, szynka prosciutto, kapary, parmezan, sos vinegre",
+      "price": [27]
+    },
+    {
+      "name": "smaki i kolory",
+      "description": "rukola, mozzarella, pomidory suszone, oliwki zielone i czarne, ogórek świeży, papryka świeża, sos vinegre",
+      "price": [24]
+    }
+  ],
+  "Burgery": [
+    {
+      "name": "chicken",
+      "description": "bułka własnego wypieku, mięso drobiowe, pomidor, sałata, ogórek, cebula czerwona, ketchup, majonez",
+      "price": [26]
+    },
+    {
+      "name": "classic",
+      "description": "bułka własnego wypieku, mięso wieprzowe, pomidor, sałata, ogórek, cebula czerwona, ketchup, majonez",
+      "price": [27]
+    },
+    {
+      "name": "cheeseburger",
+      "description": "bułka własnego wypieku, mięso wieprzowe, boczek, ser, pomidor, sałata, ogórek, cebula czerwona, sos barbecue",
+      "price": [28]
+    },
+    {
+      "name": "wege",
+      "description": "bułka własnego wypieku, tofu grillowane, pomidor, sałata, ogórek, cebula czerwona, sos barbecue",
+      "price": [27]
+    }
+  ],
+  "Inne": [
+    {
+      "name": "zestaw dziecięcy",
+      "description": "nuggetsy, frytki, warzywa",
+      "price": [19]
+    },
+    {
+      "name": "kebab w zestawie",
+      "description": "mięso drobiowe kebab, frytki, surówka",
+      "price": [25]
+    },
+    {
+      "name": "frytki",
+      "description": "",
+      "price": [8]
+    },
+    {
+      "name": "sosy",
+      "description": "",
+      "price": [3.5]
+    }
+  ],
+  "Sosy": [
+    {
+      "name": "ketchup",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "czosnkowy",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "barbecue",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "red hot",
+      "description": "",
+      "price": [3.5]
+    },
+    {
+      "name": "chrzanowy",
+      "description": "",
+      "price": [3.5]
+    }
+  ],
+  "Napoje": [
+    {
+      "name": "karawka wody z miętą i owocami 1l",
+      "description": "",
+      "price": [10]
+    },
+    {
+      "name": "kropla beskidu niegazowana 0,33l",
+      "description": "",
+      "price": [4]
+    },
+    {
+      "name": "kropla beskidu gazowana 0,33l",
+      "description": "",
+      "price": [4]
+    },
+    {
+      "name": "cola/cola zero/sprite/fanta 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "sok cappy 0,33l",
+      "description": "",
+      "price": [6]
+    },
+    {
+      "name": "tonic 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "fuze tea 0,25l",
+      "description": "",
+      "price": [5]
+    },
+    {
+      "name": "energetyk burn 0,25l",
+      "description": "",
+      "price": [6]
+    },
+    {
+      "name": "espresso",
+      "description": "",
+      "price": [7]
+    },
+    {
+      "name": "podwójne espresso",
+      "description": "",
+      "price": [9]
+    },
+    {
+      "name": "cappuccino",
+      "description": "",
+      "price": [10]
+    },
+    {
+      "name": "cappuccino na mleku roślinnym",
+      "description": "",
+      "price": [12]
+    },
+    {
+      "name": "latte",
+      "description": "",
+      "price": [11]
+    },
+    {
+      "name": "latte na mleku roślinnym",
+      "description": "",
+      "price": [13]
+    },
+    {
+      "name": "americano",
+      "description": "",
+      "price": [9]
+    },
+    {
+      "name": "herbata",
+      "description": "",
+      "price": [7]
+    },
+    {
+      "name": "koktajl owocowy",
+      "description": "",
+      "price": [12]
+    },
+    {
+      "name": "piwo lane okocim export 0,5l",
+      "description": "",
+      "price": [9.5]
+    },
+    {
+      "name": "somersby 0,4l",
+      "description": "",
+      "price": [8]
+    }
+  ]
+}

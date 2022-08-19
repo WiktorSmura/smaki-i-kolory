@@ -1,0 +1,17 @@
+.parallaxContainer {
+  position: relative;
+  height: 20vh;
+
+  .background {
+    object-position: 50% 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parallaxContainer {
+    height: 45vh;
+  }
+}
