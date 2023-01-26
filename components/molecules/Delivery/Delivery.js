@@ -1,5 +1,6 @@
 import styles from "./Delivery.module.scss";
 import Heading2 from "../../atoms/Heading2/Heading2";
+import Heading3 from "../../atoms/Heading3/Heading3";
 
 function Delivery() {
   return (
@@ -17,6 +18,9 @@ function Delivery() {
           Marlewo, Sypniewo, Starołęka do przejazdu PKP, Kamionki, Miniowo,
           Krzesiny
         </p>
+      </div>
+      <div className={styles.deliveryItem}>
+        <Heading3 text="Organizujemy imprezy okolicznościowe oraz przygotowujemy catering okolicznościowy"></Heading3>
       </div>
     </section>
   );
