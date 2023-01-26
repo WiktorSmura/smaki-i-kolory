@@ -65,6 +65,17 @@ function MenuNavigation() {
         <div className={`${styles.menuIcon} ${styles.pink}`}></div>
         <p className={styles.itemDescription}>Burgery</p>
       </button>
+
+      <button
+        className={styles.menuNavigationItem}
+        onClick={() => {
+          setMenuValue("Kebab");
+        }}
+      >
+        <div className={`${styles.menuIcon} ${styles.purple}`}></div>
+        <p className={styles.itemDescription}>Kebab</p>
+      </button>
+
       <button
         className={styles.menuNavigationItem}
         onClick={() => {
