@@ -44,8 +44,9 @@ function HamburgerMenu() {
       >
         <ImCross className={styles.cross} />
       </button>
-      <Link href="#menu">Menu</Link>
-      <Link href="#informationSection">Lokalizacja</Link>
+      <Link href="/#menu">Menu</Link>
+      <Link href="/#informationSection">Lokalizacja</Link>
+      <Link href="/gallery">Galeria</Link>
     </section>
   );
 }

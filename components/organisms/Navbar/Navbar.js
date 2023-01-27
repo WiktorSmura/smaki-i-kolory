@@ -17,8 +17,9 @@ function Navbar() {
         <FaBars className={styles.bars} />
       </button>
       <div className={styles.links}>
-        <Link href="#menu">Menu</Link>
-        <Link href="#informationSection">Lokalizacja</Link>
+        <Link href="/#menu">Menu</Link>
+        <Link href="/#informationSection">Lokalizacja</Link>
+        <Link href="/gallery">Galeria</Link>
       </div>
     </section>
   );
