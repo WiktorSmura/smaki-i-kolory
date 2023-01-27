@@ -239,7 +239,7 @@
   "Inne": [
     {
       "name": "zestaw dziecięcy",
-      "description": "nuggetsy, frytki, warzywa",
+      "description": "6 nuggetsów, frytki, warzywa",
       "price": [23]
     },
     {
@@ -256,6 +256,11 @@
       "name": "sosy",
       "description": "",
       "price": [4]
+    },
+    {
+      "name": "zestaw dnia",
+      "description": "Zapytaj w restauracji",
+      "price": []
     }
   ],
   "Sosy": [

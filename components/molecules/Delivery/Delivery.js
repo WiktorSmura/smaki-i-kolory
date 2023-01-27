@@ -15,8 +15,8 @@ function Delivery() {
       <div className={styles.deliveryItem}>
         <p>2. Dostawa gratis powyżej 40 zł, do 40 zł opłata 8 zł</p>
         <p className={styles.places}>
-          Marlewo, Sypniewo, Starołęka do przejazdu PKP, Kamionki, Miniowo,
-          Krzesiny
+          Marlewo, Sypniewo, Starołęka do przejazdu PKP, Kamionki, Minikowo,
+          Krzesiny, Rogalinek, Sasinowo
         </p>
       </div>
       <div className={styles.deliveryItem}>
