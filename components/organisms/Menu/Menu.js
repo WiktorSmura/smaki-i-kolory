@@ -52,7 +52,7 @@ function Menu() {
             />
           );
         })}
-        {menuValue === "Pizza" && <Sauces sauces={data["Sosy"]} />}
+        {menuValue === "Pizza" && <Sauces sauces={data["Sosy i dodatki"]} />}
       </div>
       <Delivery />
     </section>

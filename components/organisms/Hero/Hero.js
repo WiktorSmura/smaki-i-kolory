@@ -14,6 +14,8 @@ function Hero() {
           layout="fill"
           objectFit="cover"
           className={styles.backgroundImage}
+          loading="eager"
+          priority
         />
         <Logo className={styles.logo} />
         <button className={styles.callToAction} aria-label="arrow down">
