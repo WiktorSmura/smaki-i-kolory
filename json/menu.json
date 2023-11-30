@@ -208,27 +208,27 @@
   "Kebab": [
     {
       "name": "kebab w zestawie",
-      "description": "mięso drobiowe kebab, frytki, sałatka",
+      "description": "mięso drobiowe lub wołowo-baranie kebab, frytki, sałatka",
       "price": [29]
     },
     {
       "name": "kebab w bułce",
-      "description": "bułka, mięso drobiowe kebab, sos czosnkowy, sałatka",
+      "description": "bułka, mięso drobiowe lub wołowo-baranie kebab, sos czosnkowy, sałatka",
       "price": [29]
     },
     {
       "name": "kebab w tortilli",
-      "description": "tortilla, mięso drobiowe kebab, sos czosnkowy, sałatka",
+      "description": "tortilla, mięso drobiowe lub wołowo-baranie kebab, sos czosnkowy, sałatka",
       "price": [26]
     },
     {
       "name": "kapsalon",
-      "description": "bułka, mięso drobiowe kebab, frytki zapiekane z serem mozzarella, sałatka",
+      "description": "bułka, mięso drobiowe lub wołowo-baranie kebab, frytki zapiekane z serem mozzarella, sałatka",
       "price": [30]
     },
     {
       "name": "shoarma",
-      "description": "mięso drobiowe, bułka własnego wypieku, ryż lub frytki do wyboru, surówka, sos",
+      "description": "mięso drobiowe lub wołowo-baranie kebab, bułka własnego wypieku, ryż lub frytki do wyboru, surówka, sos",
       "price": [33]
     }
   ],
@@ -281,7 +281,7 @@
       "price": [5]
     },
     {
-      "name": "możliwość pizzy pół na pół",
+      "name": "możliwość zamówienia pizzy pół na pół",
       "description": "",
       "price": []
     }
