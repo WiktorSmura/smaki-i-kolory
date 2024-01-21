@@ -22,7 +22,13 @@ function InformationSection() {
         </div>
         <div className={styles.informationElement}>
           <Calendar className={styles.icon} />
-          <p>Pn-Nd 12-22</p>
+          <ul>
+            <li>Poniedziałek nieczynne</li>
+            <li>Wtorek-Czwartek 13-21</li>
+            <li>Piątek 13-22</li>
+            <li>Sobota 12-22</li>
+            <li>Niedziela 12-21</li>
+          </ul>
         </div>
       </div>
       <GoogleMap />
