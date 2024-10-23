@@ -1,7 +1,6 @@
 import useSWR from "swr";
 import styles from "./Menu.module.scss";
 import PizzaSlicer from "/public/svg/pizzaslicer-svgrepo-com.svg";
-import PizzaSlice from "/public/svg/pizza-svgrepo-com.svg";
 import Heading2 from "/components/atoms/Heading2/Heading2";
 import MenuNavigation from "../../molecules/MenuNavigation/MenuNavigation";
 import MenuItem from "../../molecules/MenuItem/MenuItem";

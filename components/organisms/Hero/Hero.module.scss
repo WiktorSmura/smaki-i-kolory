@@ -30,6 +30,38 @@
     margin: 0 auto;
   }
 
+  .advert {
+    width: max-content;
+    height: auto;
+    padding: 15px 25px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: $background;
+
+    h3 {
+      height: auto;
+      font-size: 1.6rem;
+      text-align: center;
+      color: white;
+      font-weight: 400;
+    }
+
+    @media (min-width: 700px) {
+      h3 {
+        font-size: 2.2rem;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      h3 {
+        font-size: 2.8rem;
+      }
+    }
+  }
+
   .callToAction {
     background: $background;
     border: none;

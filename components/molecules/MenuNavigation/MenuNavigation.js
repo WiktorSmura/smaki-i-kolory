@@ -79,11 +79,11 @@ function MenuNavigation() {
       <button
         className={styles.menuNavigationItem}
         onClick={() => {
-          setMenuValue("Napoje");
+          setMenuValue("Dania obiadowe");
         }}
       >
         <div className={`${styles.menuIcon} ${styles.red}`}></div>
-        <p className={styles.itemDescription}>Napoje</p>
+        <p className={styles.itemDescription}>Dania obiadowe</p>
       </button>
       <button
         className={styles.menuNavigationItem}
