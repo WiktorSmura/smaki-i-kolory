@@ -54,6 +54,14 @@ function Menu() {
         {menuValue === "Pizza" && <Sauces sauces={data["Sosy i dodatki"]} />}
       </div>
       <Delivery />
+      <a
+        href="/alergenes.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.pdfLink}
+      >
+        Informacje o alergenach
+      </a>
     </section>
   );
 }
