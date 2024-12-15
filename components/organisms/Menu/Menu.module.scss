@@ -45,6 +45,14 @@
     width: 80vw;
     margin-top: 2.4rem;
   }
+
+  .pdfLink {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: $text;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 1200px) {
